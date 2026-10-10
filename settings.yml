@@ -1,4 +1,26 @@
 use_default_settings: true
 
 server:
-  secret_key: "senha_09876547#Aa_seguro_equipy_pvpend"
+  secret_key: "piquiweb_secret_key_super_segura_999"
+  bind_address: "0.0.0.0"
+  port: 8080
+
+engines:
+  - name: yahoo
+    engine: yahoo
+    disabled: false
+  - name: startpage
+    engine: startpage
+    disabled: false
+  - name: ecosia
+    engine: ecosia
+    disabled: false
+  - name: yandex
+    engine: yandex
+    disabled: false
+  - name: privacywall
+    engine: privacywall
+    disabled: false
+  - name: duckduckgo
+    engine: duckduckgo
+    disabled: false
