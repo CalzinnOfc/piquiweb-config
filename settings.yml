@@ -1,0 +1,4 @@
+use_default_settings: true
+
+server:
+  secret_key: "senha_09876547#Aa_seguro_equipy_pvpend"
