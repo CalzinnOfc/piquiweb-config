@@ -1,0 +1,46 @@
+use_default_settings: true
+
+general:
+  instance_name: "PiquiWeb"
+  base_url: "https://piquiweb.vercel.app/"
+  secret_key: "piquiweb_super_secret_key_999"
+
+outgoing:
+  request_timeout: 10.0
+
+engines:
+  - name: yahoo
+    engine: yahoo
+    categories: general
+    shortcut: y
+    disabled: false
+
+  - name: startpage
+    engine: startpage
+    categories: general
+    shortcut: sp
+    disabled: false
+
+  - name: ecosia
+    engine: ecosia
+    categories: general
+    shortcut: eco
+    disabled: false
+
+  - name: yandex
+    engine: yandex
+    categories: general
+    shortcut: ya
+    disabled: false
+
+  - name: privacywall
+    engine: privacywall
+    categories: general
+    shortcut: pw
+    disabled: false
+
+  - name: duckduckgo
+    engine: duckduckgo
+    shortcut: ddg
+    timeout: 8.0
+    disabled: false
