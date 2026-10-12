@@ -1,7 +1,0 @@
-use_default_settings: true
-
-server:
-  secret_key: "piquiweb_secret_key_super_segura_999"
-  bind_address: "0.0.0.0"
-  port: 10000
-  
